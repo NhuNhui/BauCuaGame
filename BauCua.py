@@ -43,10 +43,20 @@ lac2 = pygame.transform.scale(lac2,(100,50))
 xong = pygame.image.load(r'Image\Xong.png')
 xong = pygame.transform.scale(xong,(180,100))
 
+Nhui = pygame.image.load(r'Image\Nhui.png')
+Nhui = pygame.transform.scale(Nhui,(100,100))
+
+Nhi = pygame.image.load(r'Image\Nhi.png')
+Nhi = pygame.transform.scale(Nhi,(100,100))
+
+Lai = pygame.image.load(r'Image\Lai.png')
+Lai = pygame.transform.scale(Lai,(100,100))
+
+lst_girl = [Nhui,Nhi,Lai]
 lst_choose = [nai,bau,tom,ca,cua,ga]
-random_one = random.choice(lst_choose)
-random_two = random.choice(lst_choose)
-random_there = random.choice(lst_choose)
+random_one = random.choice(lst_girl)
+random_two = random.choice(lst_girl)
+random_there = random.choice(lst_girl)
 
 check = False
 
@@ -66,9 +76,9 @@ while run:
                 check = False
                 
             if(check):
-                random_one = random.choice(lst_choose)
-                random_two = random.choice(lst_choose)
-                random_there = random.choice(lst_choose)
+                random_one = random.choice(lst_girl)
+                random_two = random.choice(lst_girl)
+                random_there = random.choice(lst_girl)
         if event.type == pygame.MOUSEBUTTONDOWN:
             mouse_x, mouse_y = pygame.mouse.get_pos()
             
