@@ -6,41 +6,41 @@ pygame.init ()
 pygame.display.set_caption("Bầu Cua")
 
 #backgound
-bg = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\BackGround.jpg')
+bg = pygame.image.load(r'Image\BackGround.jpg')
 
 
 #create screen game
 screen = pygame.display.set_mode((1200,675))
 
-dia = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Dia.png')
+dia = pygame.image.load(r'Image\Dia.png')
 dia = pygame.transform.scale(dia,(600,600))
 dia_rectangle = dia.get_rect(center=(600,674/2))
 
-nai = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Nai.png')
+nai = pygame.image.load(r'Image\Nai.png')
 nai = pygame.transform.scale(nai,(100,100))
 
-ga = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Ga.png')
+ga = pygame.image.load(r'Image\Ga.png')
 ga = pygame.transform.scale(ga,(100,100))
 
-bau = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Bau.png')
+bau = pygame.image.load(r'Image\Bau.png')
 bau = pygame.transform.scale(bau,(100,100))
 
-cua = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Cua.png')
+cua = pygame.image.load(r'Image\Cua.png')
 cua = pygame.transform.scale(cua,(100,100))
 
-tom = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Tom.png')
+tom = pygame.image.load(r'Image\Tom.png')
 tom = pygame.transform.scale(tom,(100,100))
 
-ca = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Ca.png')
+ca = pygame.image.load(r'Image\Ca.png')
 ca = pygame.transform.scale(ca,(100,100))
 
-lac1 = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Lac_1.png')
+lac1 = pygame.image.load(r'Image\Lac_1.png')
 lac1 = pygame.transform.scale(lac1,(100,50))
 
-lac2 = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Lac_2.png')
+lac2 = pygame.image.load(r'Image\Lac_2.png')
 lac2 = pygame.transform.scale(lac2,(100,50))
 
-xong = pygame.image.load(r'D:\HK232\Game\LTGame\BauCua\Image\Xong.png')
+xong = pygame.image.load(r'Image\Xong.png')
 xong = pygame.transform.scale(xong,(180,100))
 
 lst_choose = [nai,bau,tom,ca,cua,ga]
