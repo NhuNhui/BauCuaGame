@@ -54,9 +54,9 @@ Lai = pygame.transform.scale(Lai,(100,100))
 
 lst_girl = [Nhui,Nhi,Lai]
 lst_choose = [nai,bau,tom,ca,cua,ga]
-random_one = random.choice(lst_girl)
-random_two = random.choice(lst_girl)
-random_there = random.choice(lst_girl)
+random_one = random.choice(lst_choose)
+random_two = random.choice(lst_choose)
+random_there = random.choice(lst_choose)
 
 check = False
 
@@ -76,9 +76,9 @@ while run:
                 check = False
                 
             if(check):
-                random_one = random.choice(lst_girl)
-                random_two = random.choice(lst_girl)
-                random_there = random.choice(lst_girl)
+                random_one = random.choice(lst_choose)
+                random_two = random.choice(lst_choose)
+                random_there = random.choice(lst_choose)
         if event.type == pygame.MOUSEBUTTONDOWN:
             mouse_x, mouse_y = pygame.mouse.get_pos()
             
